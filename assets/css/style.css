@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--light);
 }
 
 a {
-    color: #b0b319;
+    color: var(--yellow);
     text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ p {
 /* -----------------header---------------------------- */
 .header {
     padding: 20px;
-    background-color: #1f283b;
+    background-color: var(--navy-blue);
     color: antiquewhite;
     display: flex;
     justify-content:space-between;
@@ -67,7 +67,7 @@ div nav h1 {
     color:antiquewhite;
 }
 
-/* --------targets about-me, work & connect section--- */
+/* --------styles about-me, work & connect section--- */
 article {
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +94,15 @@ aside h1{
     font-size: 38px;
 }
 
+/* #about-me aside {
+    display: block;
+    text-align: right;
+} */
+
+/* #avatar {
+    width :30%;
+} */
+
 /* -----------work section---------------------------- */
 .work {
     display: flex;
@@ -103,7 +112,7 @@ aside h1{
 .work a {
     font-size: 30px;
     text-align: center;
-    color: #daee23;
+    color: var(--bright-yellow);
 }
 
 .main-project {
@@ -151,7 +160,7 @@ aside h1{
 
 .connect section ul li:hover {
     transform: scale(1.2);
-    color: #0b0fdd;
+    color: var(--blue);
 }
 
 /* ---------------footer section---------------------- */
@@ -193,6 +202,7 @@ aside h1{
     section {
         padding-right: 20px;
     }
+
     .main-project, .project {
         height:150px;
     }
