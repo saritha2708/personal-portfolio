@@ -24,6 +24,11 @@ The LinkedIn logo is registered trademark of LinkedIn Corporation and its affili
 Github logo is from https://github.com/logos.
 
 
+## License
+
+MIT License
+
+
 ## Project URL
 
 URL link to the Saritha's Portfolio webpage:
